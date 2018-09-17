@@ -18,16 +18,17 @@
         @php $jml=count($nama); $i=0; @endphp
         @foreach ($nama as $data)
         @php $i++; @endphp
-        <h3 style="font-family: 'Arial Bold', sans-serif;
+        <h3 style="font-family: 'Times New Roman', sans-serif;
                     left: 0;
-                    top: 10.1cm;
+                    top: 7.30cm;
                     position: absolute;
                     width: 100%;
                     margin-left: 3cm;
                     margin-right: 3cm;
                     z-index: 99;
-                    font-size: 47px;
-                    text-align: center">
+                    font-size: 38px;
+                    text-align: center;
+                    color: 231F1E">
                     {{ $data }}
             </h3>
         <img style="position: absolute;

@@ -9,6 +9,8 @@ class MainController extends Controller
 {
     public function index()
     {
+        set_time_limit(9999);
+
         $data = [
             'peserta' => [
                 [
